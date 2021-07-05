@@ -13,7 +13,7 @@ spring:
       port: 27017
       host: localhost      
   config:
-    import: optional:configserver
+    import: optional:configserver:
     
 eureka:
   client:
